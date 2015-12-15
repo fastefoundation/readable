@@ -135,12 +135,12 @@ body {
     color: #444;
     /* IE8 proofing */
     color: rgba(68, 68, 68, 1)
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid solid;
 }
 
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-    background-color: transparent;
+    background-color: solid;
     border-bottom-color: rgba(255, 255, 255, .25);
 }
 
