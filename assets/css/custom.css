@@ -5,7 +5,9 @@
  */
 /* Links */
 a,
-a:focus,
+a:focus{
+    
+}
 a:hover {
     color: #444;
 }
@@ -15,6 +17,23 @@ h1 {
     padding-top: 25px;
     font-size: 2em;
 }
+
+h2{
+    text-indent: 0; 
+    tab-stops: list .4in; 
+    font-size: 10pt; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: normal; 
+    text-align: left; 
+    margin: 8pt 0 3pt 10px; 
+    line-height: 19.0px;
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 
 .masthead {
     background: rgba(255, 255, 255, 0.9);
@@ -126,7 +145,11 @@ body {
 }
 
 .masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:hover{
+    color: #444;
+    border-bottom-color: #444;
+    text-decoration: underline;
+}
 .masthead-nav > .active > a:focus {
     color: #444;
     border-bottom-color: #444;
