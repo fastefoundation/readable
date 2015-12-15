@@ -4,13 +4,28 @@
  *
  */
 /* Links */
-a,
+a{
+    text-decoration: none; 
+    color: #000000;
+}
+a:active {
+    text-decoration: none; 
+    color: #000000;
+    font-weight: bold;
+}
 a:focus{
-    
+    text-decoration: none; 
+    color: #000000;
 }
 a:hover {
-    color: #444;
+    text-decoration: none; 
+    color: #000000;
 }
+a:visited{
+    text-decoration: none; 
+    color: #000000;
+}
+
 
 h1 {
     margin: .67em 0;
