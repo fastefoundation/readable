@@ -19,7 +19,8 @@ a:focus{
 }
 a:hover {
     text-decoration: none; 
-    color: #000000;
+    color: #000000
+    background-color:000000;
 }
 a:visited{
     text-decoration: none; 
@@ -145,7 +146,7 @@ body {
 .masthead-nav > li > a {
     padding-right: 0;
     padding-left: 0;
-    font-size: 16px;
+    font-size: 15pt;
     font-weight: bold;
     color: #444;
     /* IE8 proofing */
@@ -254,6 +255,8 @@ body {
     .site-wrapper-inner {
         vertical-align: top;
         padding-top: 5em;
+        
+        
     }
 
     .site-wrapper-inner-centered {
@@ -273,7 +276,7 @@ body {
     .masthead,
     .mastfoot,
     .cover-container {
-        width: 700px;
+        width: 100%;
     }
 }
 
