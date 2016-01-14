@@ -21,19 +21,40 @@
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
-<body class="{{body_class}}">
+<body class="{{body_class}}"> <!--Body START -->
 
 {{! Everything else gets inserted here }}
+
+<div class="row"> <!--Static Row START -->
+  <div class="col-md-6"><!--Nav START -->
+    <div class="masthead clearfix">
+        <div class="inner">
+            <h3 class="masthead-brand">Rolf A. <b>{{@blog.title}}</b> for Design Creativity</h3>
+        </div>
+    </div>
+  </div><!--Title END -->
+  <div class="col-md-6"><!--Nav START -->
+    {{navigation}}
+  </div><!--Nav END -->
+  <div class="col-md-12"><!--Mission START -->
+    
+  </div><!--Mission END -->
+  <div class="col-md-12"><!--About Rolf START -->
+    
+  </div><!--About Rolf END -->
+</div><!--Static Row END -->
+<div class="row"> <!--Recent Project START -->
+  <div class="col-md-4">.col-md-1</div>
+  <div class="col-md-4">.col-md-1</div>
+  <div class="col-md-4">.col-md-1</div>
+</div><!--Recent Project START -->
+
+
 <div class="container">
     <div class="site-wrapper">
         <div class="site-wrapper-inner">
             <div class="cover-container">
-                <div class="masthead clearfix">
-                    <div class="inner">
-                        <h3 class="masthead-brand">Rolf A. <b>{{@blog.title}}</b> for Design Creativity</h3>
-                        {{navigation}}
-                    </div>
-                </div>
+              
                 {{{body}}}
 
             </div>
@@ -63,14 +84,15 @@
                       <button type="Join" class="btn btn-default">Join</button>
                     </form>
                     <br>
-                    <section class="copyright">All content copyright <a href="/">Rolf A. <b>{{@blog.title}}</b> for Design Creativity</a> &copy; 2015 &bull; All rights reserved.
+                    <br>
+                    <section class="copyright">All content copyright <a href="/">Rolf A. <b>{{@blog.title}}</b> for Design Creativity</a> &copy; 2016 &bull; All rights reserved.
                     </section>
                   </div>
                   <div class="col-md-4"><!--Footer Right -->
                     <button type="button" class="btn btn-default">Donate</button>
                   </div>
              	</div> <!--Footer Grid END -->
-		 
+
             </footer>
         </div>
     </div>
@@ -86,5 +108,5 @@
 <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
 
-</body>
+</body> <!--Body END -->
 </html>
